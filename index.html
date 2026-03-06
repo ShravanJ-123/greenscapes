@@ -861,7 +861,7 @@ and seamless connectivity to Magarpatta, SP Infocity, and major highways. Design
                 <!-- <div class="amenities-premium-intro">
                     <p>Designed for elevated daily living with curated wellness, recreation, and lifestyle experiences.</p>
                 </div> -->
-                <div class="amenities-premium-grid">
+                <div class="amenities-premium-grid is-collapsed" id="amenitiesPremiumGrid">
                     <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l3.6 4.4L21 8l-3.4 4 1 5.6L12 15.7 5.4 17.6l1-5.6L3 8l5.4-1.6L12 2z"/></svg></span><p>Twin Luxury Clubhouses</p></article>
                     <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 13c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.8 2v2c-2.4 0-2.4-2-4.8-2s-2.4 2-4.8 2-2.4-2-4.8-2-2.4 2-4.8 2v-2z"/></svg></span><p>Multiple Swimming Pools</p></article>
                     <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 10h2v9H5v-9zm4-4h2v13H9V6zm4 2h2v11h-2V8zm4-3h2v14h-2V5z"/></svg></span><p>Fully Equipped Gymnasium</p></article>
@@ -869,14 +869,17 @@ and seamless connectivity to Magarpatta, SP Infocity, and major highways. Design
                     <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 18h18v2H3v-2zm1.5-1.5l2.4-7h2.2l2.1 5 2.2-8h2.2l2 6.5h3.9v2H16l-1.2-3.9L12.7 17h-2.3l-2.2-5.1-1.5 4.6H4.5z"/></svg></span><p>Jogging & Cycling Track</p></article>
                     <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M11 21V11H4l9-9 9 9h-7v10h-4z"/></svg></span><p>Landscaped Podium Gardens with 750+ Trees</p></article>
                     <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 4a3 3 0 110 6 3 3 0 010-6zm6 1.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM3 19c0-2.8 3.3-4.5 6-4.5S15 16.2 15 19v1H3v-1zm12.5 1V19c0-1.5-.6-2.8-1.6-3.8 2.5.2 5.1 1.6 5.1 3.8v1h-3.5z"/></svg></span><p>Children's Play Area</p></article>
-                    <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a8 8 0 00-8 8v3l-2 2v2h20v-2l-2-2v-3a8 8 0 00-8-8zm0 19a3 3 0 01-2.8-2h5.6A3 3 0 0112 21z"/></svg></span><p>Senior Citizen Seating Zone</p></article>
-                    <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4V4zm9 0h7v7h-7V4zM4 13h7v7H4v-7zm11.5 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/></svg></span><p>Indoor Games & Game Arena</p></article>
-                    <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 7h18v10H3V7zm2 2v6h14V9H5zm4-6h6v2H9V3zm1 8h4v2h-4v-2z"/></svg></span><p>Celebration / Party Hall</p></article>
-                    <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4h10v2H7V4zm-2 4h14l-1.3 12H6.3L5 8zm6 3a2 2 0 100 4 2 2 0 000-4z"/></svg></span><p>BBQ Pavilion & Party Lawn</p></article>
-                    <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 21v-5l7-13 5 3-7 13H6zm7.4-14.8l1.7 1L16.8 5l-1.7-1-1.7 2.2z"/></svg></span><p>Rock Climbing Wall</p></article>
-                    <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v4H4V4zm0 6h16v10H4V10zm2 2v6h12v-6H6z"/></svg></span><p>Tennis / Pickleball Court</p></article>
-                    <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h10v2H7V3zm-1 4h12l2 13H4L6 7zm4 4v5h4v-5h-4z"/></svg></span><p>Skating Rink</p></article>
-                    <article class="amenity-card"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.4 9.7-8 11-4.6-1.3-8-6-8-11V6l8-4zm0 5a2 2 0 100 4 2 2 0 000-4zm-3 7h6v2H9v-2z"/></svg></span><p>Smart Security with CCTV Surveillance</p></article>
+                    <article class="amenity-card amenity-extra"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a8 8 0 00-8 8v3l-2 2v2h20v-2l-2-2v-3a8 8 0 00-8-8zm0 19a3 3 0 01-2.8-2h5.6A3 3 0 0112 21z"/></svg></span><p>Senior Citizen Seating Zone</p></article>
+                    <article class="amenity-card amenity-extra"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4V4zm9 0h7v7h-7V4zM4 13h7v7H4v-7zm11.5 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/></svg></span><p>Indoor Games & Game Arena</p></article>
+                    <article class="amenity-card amenity-extra"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 7h18v10H3V7zm2 2v6h14V9H5zm4-6h6v2H9V3zm1 8h4v2h-4v-2z"/></svg></span><p>Celebration / Party Hall</p></article>
+                    <article class="amenity-card amenity-extra"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4h10v2H7V4zm-2 4h14l-1.3 12H6.3L5 8zm6 3a2 2 0 100 4 2 2 0 000-4z"/></svg></span><p>BBQ Pavilion & Party Lawn</p></article>
+                    <article class="amenity-card amenity-extra"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 21v-5l7-13 5 3-7 13H6zm7.4-14.8l1.7 1L16.8 5l-1.7-1-1.7 2.2z"/></svg></span><p>Rock Climbing Wall</p></article>
+                    <article class="amenity-card amenity-extra"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v4H4V4zm0 6h16v10H4V10zm2 2v6h12v-6H6z"/></svg></span><p>Tennis / Pickleball Court</p></article>
+                    <article class="amenity-card amenity-extra"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h10v2H7V3zm-1 4h12l2 13H4L6 7zm4 4v5h4v-5h-4z"/></svg></span><p>Skating Rink</p></article>
+                    <article class="amenity-card amenity-extra"><span class="amenity-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.4 9.7-8 11-4.6-1.3-8-6-8-11V6l8-4zm0 5a2 2 0 100 4 2 2 0 000-4zm-3 7h6v2H9v-2z"/></svg></span><p>Smart Security with CCTV Surveillance</p></article>
+                </div>
+                <div class="amenities-toggle-wrap">
+                    <button type="button" class="amenities-toggle-btn" id="amenitiesToggleBtn">Show All Amenities</button>
                 </div>
             </div>
         </div>
@@ -1385,6 +1388,18 @@ document.addEventListener("DOMContentLoaded", function () {
     </script>
 
     
+    <script>
+        (function () {
+            const grid = document.getElementById('amenitiesPremiumGrid');
+            const button = document.getElementById('amenitiesToggleBtn');
+            if (!grid || !button) return;
+
+            button.addEventListener('click', function () {
+                const isCollapsed = grid.classList.toggle('is-collapsed');
+                button.textContent = isCollapsed ? 'Show All Amenities' : 'Show Less Amenities';
+            });
+        })();
+    </script>
     <script>
         const prevIcon4 = `<img class="left-slider-icon" src="images/icons/left-icon.png" alt="left">`
         const nextIcon4 = `<img class="right-slider-icon" src="images/icons/right-icon.png" alt="right">`

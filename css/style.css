@@ -462,6 +462,26 @@ a.navbar-call-btn:hover {color: #000;}
     height: 20px;
     fill: #fff;
 }
+.amenities-toggle-wrap {
+    display: none;
+    justify-content: center;
+    margin-top: 14px;
+}
+.amenities-toggle-btn {
+    border: 1px solid rgba(18, 63, 52, 0.45);
+    background: linear-gradient(145deg, #123f34 0%, #1f5b4c 100%);
+    color: #fff;
+    border-radius: 999px;
+    padding: 10px 18px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.amenities-toggle-btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(178, 144, 82, 0.35);
+}
 
 
 
@@ -849,6 +869,12 @@ div#about-developer {
     }
     .amenities-premium-wrap {
         margin-top: 24px;
+    }
+    .amenities-toggle-wrap {
+        display: flex;
+    }
+    .amenities-premium-grid.is-collapsed .amenity-extra {
+        display: none;
     }
 }
 
