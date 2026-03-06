@@ -1949,7 +1949,18 @@ div#about-developer,
         padding: 14px 0 20px;
     }
 
+    .new_typo .banner-new-design {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .new_typo .banner-new-design .address {
+        width: 100%;
+        text-align: center;
         font-size: 24px;
         line-height: 1.25;
         letter-spacing: 0.7px;
@@ -1961,10 +1972,26 @@ div#about-developer,
         line-height: 1.3;
     }
 
+    .new_typo .banner-new-design .address .pro_location {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: auto;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+
+    .new_typo .banner-new-design .address .pro_location img {
+        margin: 0;
+        vertical-align: middle;
+    }
+
     .new_typo .banner-new-design .banner-details {
         display: flex;
         flex-direction: column;
-        margin: 0 10px;
+        width: 100%;
+        margin: 0 auto;
         border-radius: 12px;
         overflow: hidden;
     }
