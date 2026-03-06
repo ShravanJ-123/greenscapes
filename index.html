@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prestige Nautilus | Worli - Dr. Annie Besant Road | 4, 5 & 6 BHK Apartments</title>
+    <title>Dosti Greenscapes | At Upper Camp, Pune | 4, 5 & 6 BHK Apartments</title>
     <meta name="description" content="Prestige Nautilus, Worli, offers spacious 4, 5 & 6 BHK residences designed to suit various budgets and preferences. As a pre-launch offer, Prestige Nautilus Worli provides exclusive benefits that make it an attractive choice for discerning buyers.">
     <meta name="keywords" content="Prestige Nautilus, Worli - Dr. Annie Besant Road, 4, 5 & 6 BHK Apartments, prestige nautilus , prestige nautilus mumbai , prestige nautilus worli, prestige nautilus worli mumbai ">
 
@@ -47,7 +47,7 @@
 
                 <div class="menu-section"> 
                     <div class="banner-call-section">
-                        <a class="navbar-call-btn" href="tel:+918562893333">+91 8562893333         
+                        <a class="navbar-call-btn" href="tel:+918562893333">+91 9545105051        
                         </a>                       
                     </div>
                     <div class="mobile-trigger">
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="container-fluid banner-container">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-bs-interval="7000">
                         <img src="images/slide1.jpeg" class="w-100 banner-img d-view" alt="Dosti Greenscapes Banner 1" fetchpriority="high" loading="eager">
                         <img src="images/slide1.jpeg" class="w-100 banner-mobile m-view" alt="Dosti Greenscapes Banner 1" fetchpriority="high" loading="eager">
                     </div>
@@ -1430,6 +1430,390 @@ lifestyles across India.
             </div>
         </div>
     </div>
+
+    <style>
+    :root {
+        --premium-bg: #f5f2eb;
+        --premium-bg-soft: #fbf8f2;
+        --premium-ink: #1e2520;
+        --premium-ink-soft: #495448;
+        --premium-accent: #0b5d3d;
+        --premium-accent-2: #129564;
+        --premium-gold: #b59453;
+        --premium-border: rgba(20, 31, 24, 0.12);
+        --premium-shadow: 0 24px 55px rgba(16, 29, 21, 0.09);
+    }
+
+    body {
+        font-family: var(--montserrat), sans-serif !important;
+        color: var(--premium-ink) !important;
+        background: linear-gradient(180deg, #f8f5ef 0%, #f2efe8 100%) !important;
+        letter-spacing: 0.1px;
+        line-height: 1.75;
+    }
+
+    body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+        background:
+            radial-gradient(circle at 8% 8%, rgba(11, 93, 61, 0.08), transparent 28%),
+            radial-gradient(circle at 92% 15%, rgba(181, 148, 83, 0.12), transparent 28%),
+            radial-gradient(circle at 30% 95%, rgba(18, 149, 100, 0.08), transparent 22%);
+    }
+
+    h1, h2, h3, h4, h5, h6, .headline, .section-heading h2, .plan-title {
+        font-family: var(--freight), serif !important;
+        letter-spacing: 0.45px;
+        color: var(--premium-ink);
+    }
+
+    p, li, a, input, button, label, .distance p, .sqft-info {
+        font-family: var(--montserrat), sans-serif !important;
+        color: var(--premium-ink-soft);
+    }
+
+    .section-heading h2 {
+        font-size: clamp(30px, 3.2vw, 46px) !important;
+        font-weight: 500 !important;
+        color: var(--premium-ink) !important;
+    }
+
+    .section-heading::before,
+    .section-heading::after,
+    .section-heading .dot {
+        background-color: var(--premium-gold) !important;
+    }
+
+    .header {
+        padding-top: 18px;
+    }
+
+    .header .navbar,
+    .navbar.fixed {
+        background: rgba(8, 15, 11, 0.5) !important;
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 999px;
+        box-shadow: 0 16px 35px rgba(5, 10, 7, 0.2);
+        width: min(94%, 1220px);
+        margin: 0 auto;
+        padding: 14px 24px !important;
+        top: 12px !important;
+    }
+
+    .navbar.fixed {
+        background: rgba(255, 252, 246, 0.86) !important;
+        border-color: rgba(15, 30, 22, 0.1);
+        box-shadow: var(--premium-shadow);
+    }
+
+    .banner-call-section {
+        border: 1px solid rgba(255, 255, 255, 0.45) !important;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 999px !important;
+        padding: 10px 18px !important;
+    }
+
+    .navbar.fixed .banner-call-section {
+        background: rgba(11, 93, 61, 0.06);
+        border-color: rgba(11, 93, 61, 0.32) !important;
+    }
+
+    .navbar-call-btn {
+        font-weight: 600 !important;
+        letter-spacing: 0.3px !important;
+    }
+
+    .banner-section .carousel-inner::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+            linear-gradient(105deg, rgba(6, 16, 10, 0.72) 0%, rgba(6, 16, 10, 0.46) 32%, rgba(6, 16, 10, 0.12) 62%, rgba(6, 16, 10, 0.48) 100%),
+            linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.35) 100%);
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .banner-text {
+        z-index: 2 !important;
+        max-width: 640px;
+        padding: 28px 30px;
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
+        backdrop-filter: blur(4px);
+    }
+
+    .banner-text .headline {
+        font-size: clamp(34px, 5.4vw, 76px) !important;
+        color: #fff !important;
+        text-shadow: 0 10px 38px rgba(0, 0, 0, 0.52);
+        margin-bottom: 8px;
+    }
+
+    .banner-text .subline {
+        font-size: clamp(17px, 2vw, 28px) !important;
+        font-family: var(--historypro), serif !important;
+        letter-spacing: 0.8px;
+        color: rgba(255, 255, 255, 0.92) !important;
+    }
+
+    .banner-new-design {
+        margin-top: -62px;
+        position: relative;
+        z-index: 5;
+        border-radius: 24px;
+        padding: 26px 28px !important;
+        background: linear-gradient(170deg, rgba(255, 252, 246, 0.98), rgba(245, 238, 226, 0.97));
+        border: 1px solid rgba(40, 52, 44, 0.12);
+        box-shadow: var(--premium-shadow);
+    }
+
+    .banner-details > div {
+        border: 1px solid var(--premium-border);
+        background: #fff;
+        box-shadow: 0 10px 24px rgba(20, 33, 24, 0.06);
+        border-radius: 18px;
+        padding: 16px 14px;
+    }
+
+    .banner-details h5 {
+        color: var(--premium-accent) !important;
+        font-size: 15px !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .banner-details h4 {
+        color: var(--premium-ink) !important;
+    }
+
+    .side_btn .navbar-query-btn,
+    .know-more-btn a,
+    .btn-inner,
+    .submit_btn,
+    .footer-form-btn,
+    .project-overview_btn {
+        border-radius: 999px !important;
+        border: 1px solid transparent !important;
+        background: linear-gradient(135deg, var(--premium-accent), var(--premium-accent-2)) !important;
+        color: #fff !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.5px !important;
+        box-shadow: 0 14px 24px rgba(11, 93, 61, 0.22);
+    }
+
+    .know-more-btn a,
+    .btn-inner {
+        padding: 11px 24px !important;
+    }
+
+    .know-more-btn a:hover,
+    .btn-inner:hover,
+    .submit_btn:hover,
+    .footer-form-btn:hover,
+    .project-overview_btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 18px 30px rgba(11, 93, 61, 0.28);
+    }
+
+    .highlights-section,
+    .about-section,
+    .pricing-section,
+    .location-section,
+    .Aminities,
+    .gallery-section,
+    .about-developer,
+    .virtual_tour {
+        position: relative;
+        z-index: 1;
+    }
+
+    .highlights-section::before,
+    .location-section::before,
+    .gallery-section::before {
+        content: "";
+        position: absolute;
+        inset: 24px 0;
+        border-radius: 30px;
+        background: var(--premium-bg-soft);
+        z-index: -1;
+    }
+
+    .highlight-details-sec,
+    .plan-card,
+    .location-flex,
+    .gallery-details,
+    .footer-from,
+    .developer-content,
+    .popup-form,
+    .virtual_tour .position-relative,
+    .location-map-img,
+    .about-image,
+    .footer-img {
+        background: #fff !important;
+        border-radius: 22px !important;
+        border: 1px solid var(--premium-border) !important;
+        box-shadow: var(--premium-shadow);
+        overflow: hidden;
+    }
+
+    .plan-card {
+        padding: 18px !important;
+        transition: transform 0.35s ease, box-shadow 0.35s ease !important;
+    }
+
+    .plan-card:hover,
+    .gallery-details:hover,
+    .location-map-img:hover,
+    .about-image:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 30px 44px rgba(11, 24, 16, 0.13);
+    }
+
+    .Aminities .imgBtn,
+    .amnt-img,
+    .highlight-image img,
+    .location-map-img img,
+    .about-image img,
+    .footer-img img,
+    .virtual_tour img {
+        border-radius: 18px !important;
+    }
+
+    .Aminities .imgtext {
+        color: var(--premium-ink) !important;
+        font-size: 15px !important;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+    }
+
+    .location-content {
+        border: 1px solid rgba(11, 93, 61, 0.14);
+        border-radius: 14px;
+        padding: 12px 14px !important;
+        background: linear-gradient(180deg, #fff, #f9f7f2);
+    }
+
+    .location-content + .location-content {
+        margin-top: 10px;
+    }
+
+    .form-control {
+        height: 48px !important;
+        border-radius: 12px !important;
+        border: 1px solid rgba(33, 45, 36, 0.18) !important;
+        background: #fff !important;
+        color: var(--premium-ink) !important;
+        box-shadow: none !important;
+    }
+
+    .form-control:focus {
+        border-color: var(--premium-accent) !important;
+        box-shadow: 0 0 0 0.2rem rgba(11, 93, 61, 0.14) !important;
+    }
+
+    .form-check-label,
+    .checkbox-section {
+        font-size: 12px !important;
+        line-height: 1.6;
+        color: #5c665f !important;
+    }
+
+    .popup-section .modal-content {
+        border-radius: 22px;
+        border: 1px solid rgba(34, 49, 39, 0.14);
+        box-shadow: 0 24px 45px rgba(11, 24, 16, 0.22);
+        background: linear-gradient(180deg, #fefdf9, #f8f3e8);
+    }
+
+    .footer-section {
+        background: linear-gradient(165deg, #0f231a 0%, #142f22 55%, #193a2a 100%) !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .footer-section p,
+    .footer-section a,
+    .footer-section h6 {
+        color: rgba(243, 247, 244, 0.88) !important;
+    }
+
+    .footer-contact-number a {
+        font-size: clamp(22px, 2.8vw, 34px) !important;
+        color: #fff !important;
+        font-family: var(--freight), serif !important;
+        letter-spacing: 1.3px;
+    }
+
+    .bottom-fixed-bar {
+        background: rgba(255, 255, 255, 0.96) !important;
+        border-top: 1px solid rgba(12, 36, 24, 0.12);
+        box-shadow: 0 -12px 25px rgba(16, 28, 21, 0.1);
+    }
+
+    .bottom-fixed-bar a span {
+        color: var(--premium-ink) !important;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.3px;
+    }
+
+    .newc {
+        padding-top: 42px !important;
+    }
+
+    @media (max-width: 991px) {
+        .header .navbar,
+        .navbar.fixed {
+            width: calc(100% - 28px);
+            border-radius: 20px;
+            padding: 12px 14px !important;
+            top: 8px !important;
+        }
+
+        .banner-text {
+            left: 5% !important;
+            max-width: 88%;
+            padding: 18px 16px;
+        }
+
+        .banner-new-design {
+            margin-top: -24px;
+            padding: 16px !important;
+            border-radius: 16px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .section-heading h2 {
+            font-size: 28px !important;
+        }
+
+        .newc {
+            padding-top: 24px !important;
+        }
+
+        .highlights-section::before,
+        .location-section::before,
+        .gallery-section::before {
+            inset: 8px 0;
+            border-radius: 0;
+        }
+
+        .plan-card,
+        .highlight-details-sec,
+        .location-flex,
+        .gallery-details,
+        .footer-from,
+        .developer-content {
+            border-radius: 16px !important;
+        }
+    }
+    </style>
 
     
     <script>
